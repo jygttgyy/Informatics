@@ -4,7 +4,7 @@
         <title>Ma première page</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="a">
         <p>Ma première page web.<br>
         Maintenant, je vais à la ligne...</p>
 
@@ -50,3 +50,13 @@
     
     </body>
 </html>
+<script>
+    var Current = "a"
+    while (true) {
+        if (Current == "a") {
+            document.getElementById(Current).id = "z"
+        } else {
+            document.getElementById(Current).id = "a"
+        }
+    }
+</script>

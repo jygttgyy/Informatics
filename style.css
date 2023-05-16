@@ -1,12 +1,30 @@
 /* Feuille de style */
 @keyframes Lerp {
-    0% {background-color: rgb(255, 0, 0)}
-    25% {background-color: rgb(0, 255, 0)}
-    50% {background-color: rgb(0, 0, 255)}
-    75% {background-color: rgb(234, 0, 255)}
-    100% {background-color: rgb(255, 0, 0)}
+    0% {background-color: red}
+    14% {background-color: orange}
+    28% {background-color: yellow}
+    42% {background-color: green}
+    56% {background-color: blue}
+    70% {background-color: indigo}
+    84% {background-color: violet;}
+    100% {background-color: red}
 };
-body {
+@keyframes Lorp {
+    0% {background-color: red}
+    14% {background-color: orange}
+    28% {background-color: yellow}
+    42% {background-color: green}
+    56% {background-color: blue}
+    70% {background-color: indigo}
+    84% {background-color: violet;}
+    100% {background-color: red}
+};
+#a {
+    margin: 0 0 0 0;
+    animation: Lerp;
+    animation-duration: 5s;
+};
+#z {
     margin: 0 0 0 0;
     animation: Lerp;
     animation-duration: 5s;
